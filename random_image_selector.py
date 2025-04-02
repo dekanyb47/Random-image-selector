@@ -243,10 +243,10 @@ def main():
     window.geometry("650x680")
     window.resizable(False, False)
 
-    title = tk.Label(text="Daily image selector", font=("Impact", 30))
+    title = tk.Label(text="Random image selector", font=("Impact", 30))
     title.pack(side='top', pady=5)
 
-    sub_title = tk.Label(text="Today's image:", font=("Times new roman", 20, "bold"))
+    sub_title = tk.Label(text="Selected image:", font=("Times new roman", 20, "bold"))
     sub_title.pack(side="top", pady=5)
 
     image_label = tk.Label(window, fg="#7d0905")
